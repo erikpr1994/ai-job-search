@@ -15,6 +15,7 @@ Primary (Spanish job market - scaffold more with `/add-portal`):
 - **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
 - **tecnoempleo.com** - major tech-focused job board in Spain (CLI: `tecnoempleo-search`)
 - **getmanfred.com** - curated, salary-transparent tech/product roles (CLI: `getmanfred-search`)
+- **joppy.me** - Barcelona-based tech hiring platform; small but high-signal, most postings publish a salary range (CLI: `joppy-search`)
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -31,6 +32,7 @@ These match your strongest and most desired career direction.
 site:infojobs.net "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
 site:tecnoempleo.com "[YOUR_KEY_SKILL]" [YOUR_CITY]
 site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+site:joppy.me/companies "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
 ```
 
 ### Priority 2: [YOUR_DOMAIN_EXPERTISE]
