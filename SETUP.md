@@ -176,7 +176,7 @@ Run these from the repository root.
 - PowerShell:
 
 ```powershell
-$tools = @("getmanfred-search", "infojobs-search", "tecnoempleo-search", "linkedin-search", "freehire-search")
+$tools = @("getmanfred-search", "infojobs-search", "joppy-search", "tecnoempleo-search", "linkedin-search", "freehire-search")
 foreach ($tool in $tools) {
   Push-Location ".agents/skills/$tool/cli"
   bun install
@@ -186,7 +186,7 @@ foreach ($tool in $tools) {
 
 - Bash / zsh / Git Bash:
 ```bash
-for tool in getmanfred-search infojobs-search tecnoempleo-search linkedin-search freehire-search; do
+for tool in getmanfred-search infojobs-search joppy-search tecnoempleo-search linkedin-search freehire-search; do
   (cd .agents/skills/$tool/cli && bun install)
 done
 ```
